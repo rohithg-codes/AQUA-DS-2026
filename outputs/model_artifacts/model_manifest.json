@@ -1,0 +1,28 @@
+{
+    "project": "AQUA",
+    "target": "Next recorded water-quality status",
+    "target_encoding": {
+        "0": "Water quality in range (Yes)",
+        "1": "Water quality out of range (No)"
+    },
+    "predictors": [
+        "pH",
+        "DO (mg/L)",
+        "Temp (in \u00b0C)"
+    ],
+    "thresholds": {
+        "Eluru": {
+            "Logistic Regression": 0.2,
+            "Random Forest": 0.4
+        },
+        "Nellore": {
+            "Logistic Regression": 0.4,
+            "Random Forest": 0.5
+        }
+    },
+    "prediction_records": 2805,
+    "regions": [
+        "Eluru",
+        "Nellore"
+    ]
+}

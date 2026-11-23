@@ -1,0 +1,5 @@
+Region,Model,Checks passed,Total checks,Result,Failed checks
+Eluru,Logistic Regression,10,10,PASS,
+Eluru,Random Forest,10,10,PASS,
+Nellore,Logistic Regression,10,10,PASS,
+Nellore,Random Forest,10,10,PASS,

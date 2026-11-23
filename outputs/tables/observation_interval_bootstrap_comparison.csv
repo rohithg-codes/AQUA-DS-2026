@@ -1,0 +1,19 @@
+Region,Interval category,Metric,Unique ponds,Random Forest minus Logistic Regression,95% CI lower (percentage points),95% CI upper (percentage points),Valid bootstrap replicates
+Eluru,Short (<=24 hours),Recall,118,-19.64,-29.89,-11.18,2000
+Eluru,Short (<=24 hours),F1,118,25.88,18.92,32.05,2000
+Eluru,Short (<=24 hours),Balanced accuracy,118,15.73,9.96,20.68,2000
+Eluru,Medium (>24 hours–7 days),Recall,69,6.98,-15.0,30.0,2000
+Eluru,Medium (>24 hours–7 days),F1,69,0.44,-12.96,15.08,2000
+Eluru,Medium (>24 hours–7 days),Balanced accuracy,69,-3.41,-16.34,10.03,2000
+Eluru,Long (>7 days),Recall,112,1.98,-8.85,13.21,2000
+Eluru,Long (>7 days),F1,112,1.79,-5.02,8.68,2000
+Eluru,Long (>7 days),Balanced accuracy,112,1.65,-4.08,7.57,2000
+Nellore,Short (<=24 hours),Recall,49,31.82,13.33,53.85,2000
+Nellore,Short (<=24 hours),F1,49,7.78,-7.1,24.75,2000
+Nellore,Short (<=24 hours),Balanced accuracy,49,14.52,5.07,25.46,2000
+Nellore,Medium (>24 hours–7 days),Recall,21,-66.67,-100.0,0.0,1757
+Nellore,Medium (>24 hours–7 days),F1,21,-80.0,-100.0,0.0,1757
+Nellore,Medium (>24 hours–7 days),Balanced accuracy,21,-41.03,-61.67,-3.69,1757
+Nellore,Long (>7 days),Recall,46,-5.26,-15.79,0.0,2000
+Nellore,Long (>7 days),F1,46,-9.52,-24.0,0.0,2000
+Nellore,Long (>7 days),Balanced accuracy,46,-2.4,-7.12,0.0,2000

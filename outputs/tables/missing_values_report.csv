@@ -1,0 +1,54 @@
+column,data_type,missing_count,missing_percentage,available_count,unique_values
+Alkalinity (mg/L),float64,12431,100.0,0,0
+Hardness (mg/L),float64,12431,100.0,0,0
+Reason follow up not possible,str,12422,99.93,9,7
+Corrective actions,str,12380,99.59,51,2
+Non-prescribed corrective actions taken,str,12373,99.53,58,22
+Corrective actions taken (other),str,12356,99.4,75,40
+Reason not implemented,str,12335,99.23,96,62
+Corrective action notes,str,12318,99.09,113,73
+Notes (mortalities),str,12315,99.07,116,59
+Corrective actions requested (other),str,12309,99.02,122,43
+Corrective actions amount requested,str,12262,98.64,169,74
+Self-initiated corrective actions notes,str,12240,98.46,191,133
+Self-initiated corrective actions implemented on (exact date),str,12176,97.95,255,124
+Corrective actions taken (details),str,12153,97.76,278,71
+Is follow up possible,str,11806,94.97,625,2
+Notes,str,11692,94.06,739,233
+Self-initiated corrective actions implemented (date range),str,11669,93.87,762,5
+Corrective actions implementation date,str,11643,93.66,788,271
+Self-initiated corrective actions taken,str,11548,92.9,883,117
+Corrective actions taken,str,11521,92.68,910,88
+Corrective actions implemented,str,11450,92.11,981,3
+Water quality improved after corrective actions,str,11447,92.08,984,2
+Corrective actions requested,str,11061,88.98,1370,112
+Ammonia—TAN (NH3) (mg/L),float64,10772,86.65,1659,7
+Ammonia—NH3 (mg/L),float64,10771,86.65,1660,23
+Parameters out of range,str,10064,80.96,2367,17
+TDS (ppt),float64,7849,63.14,4582,1017
+Turbidity (in cm),float64,7533,60.6,4898,66
+Ammonia—TAN (NH3-N) (mg/L),float64,7139,57.43,5292,124
+Weight,float64,6862,55.2,5569,106
+Feed amount (kg),float64,5675,45.65,6756,168
+Dead fish,float64,3908,31.44,8523,36
+Species,str,3781,30.42,8650,19
+Individuals tail splashing,float64,3020,24.29,9411,34
+Individuals air gulping,float64,3004,24.17,9427,34
+Observer,str,2930,23.57,9501,12
+Stocking density (per acre),float64,2651,21.33,9780,564
+Water color,str,859,6.91,11572,6
+Weather,str,728,5.86,11703,36
+Equipment,str,486,3.91,11945,183
+Group,str,48,0.39,12383,10
+Pond status,str,37,0.3,12394,3
+Temp (in °C),float64,21,0.17,12410,144
+DO (mg/L),float64,19,0.15,12412,196
+pH,float64,19,0.15,12412,229
+Type,str,2,0.02,12429,2
+Is follow up,str,0,0.0,12431,2
+Date of data collection,str,0,0.0,12431,1210
+Time of data collection,str,0,0.0,12431,356
+pond_id,str,0,0.0,12431,317
+region,str,0,0.0,12431,2
+Is WQ in range?,str,0,0.0,12431,2
+Have fish been helped,str,0,0.0,12431,2

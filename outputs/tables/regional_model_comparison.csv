@@ -1,0 +1,5 @@
+Region,Model,Predictors,Threshold,Test observations,Test ponds,Out-of-range observations,True positives,False positives,False negatives,True negatives,Accuracy,Precision,Recall,F1-score,Balanced accuracy,Average precision,ROC-AUC,Alert rate (%)
+Eluru,Logistic Regression,3,0.2,2232,118,312,191,863,121,1057,0.5591,0.1812,0.6122,0.2796,0.5814,0.3797,0.6501,47.22
+Eluru,Random Forest,3,0.4,2232,118,312,163,351,149,1569,0.7759856630824373,0.3171,0.5224,0.3947,0.6698,0.456,0.7456,23.03
+Nellore,Logistic Regression,3,0.4,573,49,44,17,10,27,519,0.9354,0.6296,0.3864,0.4789,0.6837,0.4413,0.6313,4.71
+Nellore,Random Forest,3,0.5,573,49,44,21,21,23,508,0.9232,0.5,0.4773,0.4884,0.7188,0.4818,0.7731,7.33

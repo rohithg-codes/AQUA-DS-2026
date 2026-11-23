@@ -1,0 +1,13 @@
+Audit area,Finding,Status
+Dataset integrity,"12,431 observations, 53 columns and 317 ponds; no exact duplicate rows.",Verified
+Dataset coverage,June 2021 to August 2026; regional coverage changes over time.,Verified
+Missingness,Missingness varies by parameter; alkalinity and hardness are entirely empty.,Verified
+Structural missingness,Follow-up and intervention fields are often absent by design or workflow.,Requires careful handling
+Measurement reliability,Extreme TDS and stocking-density values require source verification.,Unresolved
+Ammonia protocols,"Old TAN-N, transitional TAN and new NH3 measurements must be treated separately.",Verified
+Target definition,The target is imbalanced and documented classification criteria changed over time.,Requires modelling consideration
+Target leakage,Parameters out of range and post-intervention fields must be excluded from predictors.,Verified
+Repeated observations,Ponds have unequal observation counts and repeated measurements.,Verified
+Temporal sampling,Monitoring intervals vary; short intervals are strongly associated with follow-up visits.,Verified
+Predictor eligibility,Candidate predictors require prediction-time and reliability checks.,Initial review complete
+Generalisation,Regional coverage and pond composition change over time.,Requires validation strategy

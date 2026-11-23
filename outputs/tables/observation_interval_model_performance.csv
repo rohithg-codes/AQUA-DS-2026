@@ -1,0 +1,13 @@
+Region,Interval category,Model,Observations,Unique ponds,Morning observations,Later-day observations,Other-hour observations,Actual out-of-range,Detected problems,Missed problems,False alerts,Correct in-range predictions,Precision (%),Recall (%),Specificity (%),F1 score,Balanced accuracy (%),False positive rate (%),Alert rate (%),Median interval (hours),Q25 interval (hours),Q75 interval (hours)
+Eluru,Short (<=24 hours),Logistic Regression,1172,118,58,1114,0,168,148,20,633,371,18.95,88.1,36.95,0.3119,62.52,63.05,66.64,8.75,8.17,9.08
+Eluru,Short (<=24 hours),Random Forest,1172,118,58,1114,0,168,115,53,120,884,48.94,68.45,88.05,0.5707,78.25,11.95,20.05,8.75,8.17,9.08
+Eluru,Medium (>24 hours–7 days),Logistic Regression,130,69,130,0,0,43,20,23,47,40,29.85,46.51,45.98,0.3636,46.24,54.02,51.54,40.17,39.16,72.5
+Eluru,Medium (>24 hours–7 days),Random Forest,130,69,130,0,0,43,23,20,59,28,28.05,53.49,32.18,0.368,42.84,67.82,63.08,40.17,39.16,72.5
+Eluru,Long (>7 days),Logistic Regression,930,112,929,0,1,101,23,78,183,646,11.17,22.77,77.93,0.1498,50.35,22.07,22.15,494.43,328.06,759.25
+Eluru,Long (>7 days),Random Forest,930,112,929,0,1,101,25,76,172,657,12.69,24.75,79.25,0.1678,52.0,20.75,21.18,494.43,328.06,759.25
+Nellore,Short (<=24 hours),Logistic Regression,309,49,0,309,0,22,14,8,9,278,60.87,63.64,96.86,0.6222,80.25,3.14,7.44,10.0,9.73,10.22
+Nellore,Short (<=24 hours),Random Forest,309,49,0,309,0,22,21,1,17,270,55.26,95.45,94.08,0.7,94.77,5.92,12.3,10.0,9.73,10.22
+Nellore,Medium (>24 hours–7 days),Logistic Regression,29,21,29,0,0,3,2,1,0,26,100.0,66.67,100.0,0.8,83.33,0.0,6.9,39.17,37.78,62.27
+Nellore,Medium (>24 hours–7 days),Random Forest,29,21,29,0,0,3,0,3,4,22,0.0,0.0,84.62,0.0,42.31,15.38,13.79,39.17,37.78,62.27
+Nellore,Long (>7 days),Logistic Regression,235,46,235,0,0,19,1,18,1,215,50.0,5.26,99.54,0.0952,52.4,0.46,0.85,710.3,661.91,805.64
+Nellore,Long (>7 days),Random Forest,235,46,235,0,0,19,0,19,0,216,,0.0,100.0,0.0,50.0,0.0,0.0,710.3,661.91,805.64

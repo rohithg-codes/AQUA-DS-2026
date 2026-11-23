@@ -1,0 +1,15 @@
+Region,Metric,Mean difference (RF - LR),95% CI lower,95% CI upper,CI excludes zero,Direction
+Eluru,Accuracy,0.2166,0.188,0.2458,True,Favours Random Forest
+Eluru,Precision,0.1337,0.0942,0.1734,True,Favours Random Forest
+Eluru,Recall,-0.0917,-0.1648,-0.0166,True,Favours Logistic Regression
+Eluru,F1-score,0.1127,0.0713,0.154,True,Favours Random Forest
+Eluru,Balanced accuracy,0.0874,0.0489,0.1255,True,Favours Random Forest
+Eluru,Average precision,0.0741,0.0269,0.1219,True,Favours Random Forest
+Eluru,ROC-AUC,0.095,0.052,0.1395,True,Favours Random Forest
+Nellore,Accuracy,-0.0125,-0.0297,0.0039,False,Favours Logistic Regression
+Nellore,Precision,-0.1207,-0.2857,0.0479,False,Favours Logistic Regression
+Nellore,Recall,0.0988,-0.0962,0.275,False,Favours Random Forest
+Nellore,F1-score,0.0206,-0.1335,0.1904,False,Favours Random Forest
+Nellore,Balanced accuracy,0.039,-0.0559,0.1251,False,Favours Random Forest
+Nellore,Average precision,0.0464,-0.0607,0.1558,False,Favours Random Forest
+Nellore,ROC-AUC,0.1423,0.0621,0.2394,True,Favours Random Forest
